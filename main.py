@@ -290,9 +290,15 @@ class Map(object):
 		
 		image7=pygame.image.load('images/buttons/按钮_暂停.png').convert_alpha()
 		image8=pygame.image.load('images/buttons/按钮_暂停_红.png').convert_alpha()
+		image9=pygame.image.load('images/towers/防御塔1.png').convert_alpha()
+		image10=pygame.image.load('images/towers/防御塔2.png').convert_alpha()
+		image11=pygame.image.load('images/towers/防御塔3.png').convert_alpha()
 		shovelImage=pygame.image.load('images/buttons/按钮_减去.png').convert_alpha()
 		shovelImage1=pygame.image.load('images/buttons/按钮_减去_红.png').convert_alpha()
 		screen.blit(image7,(15*70,8*70))
+		screen.blit(image9,(0*70,9*70))
+		screen.blit(image10,(1*70,9*70))
+		screen.blit(image11,(2*70,9*70))
 		screen.blit(shovelImage,(14*70,8*70))
 		
 		#如果鼠标在按钮上，就将按钮变红
