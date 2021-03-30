@@ -9,3 +9,7 @@
 ### 关卡编辑方法：
 
 通过在editor文件夹中两个Excel文件编辑地图和出怪顺序，保存后运行xls_to_json.py。
+
+### 实机演示视频：
+
+[（自制小游戏）吃豆人塔防-游戏演示](https://www.bilibili.com/video/BV1uh411D7JS)
